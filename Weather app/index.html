@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather app</title>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="weather.css" />
+    
+</head>
+<body>
+    
+    <div id ="searchContainer" >
+        
+            <input type="text"  id="searchInput" placeholder="city/zip">
+            <button id="searchbar">Search</button>
+    </div>
+    <h1 id="head">What is the weather now ! ! !</h1>
+    <div id="weatherContainer">
+        <div id="weatherDescription">
+            <h1 id="city"></h1>
+            <div id="weatherMain">
+                <div id="temp"></div>
+                <h2 id="wheader"></h2>
+                <div><img id="ImgdocumentIcon"></div>
+            </div>
+            <hr>
+            <div id="windspeed" class="bottom"></div>
+            <div id="humidity" class="bottom"></div>
+        </div>
+    </div>
+    
+
+    <script src="weather.js"></script>
+</body>
+</html>
